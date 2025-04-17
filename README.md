@@ -1,6 +1,15 @@
-# Install Pantum-M6500-ubuntu
+#  Pantum M6500 series on ubuntu
 
-commands to install Pantum-M6500 printer driver and share printer over network
+## 1. Download the ziped file:
+
+## 2. Unzip the file:
+```bash
+unzip Pantum_Ubuntu_Driver_V1_1_106.zip
+```
+## 3. Install the driver and share the printer over the network (optional):
+
+commands to install printer driver and share printer over network
+
 ```bash
 sudo apt install  cups -y
 sudo usermod -aG lpadmin $(whoami)
